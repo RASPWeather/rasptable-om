@@ -1,3 +1,5 @@
+# A viewer for RASP output using OpenMap Mapping
+
 It should be possible to place all the files into a single location and it will then operate against the UK RASP set of data files.
 
 To revise the code for your model/s:
