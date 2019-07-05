@@ -14,6 +14,6 @@ To revise the code for your model/s:
 
 - Adjust *jcModelSoundings* for the soundings in use.
 
-- Adjust *jcGlidingSites* for the glising locations of interest.
+- Adjust *jcGlidingSites* for the gliding locations of interest where you are.
 
 Lastly ... try it out and see how you get on!
