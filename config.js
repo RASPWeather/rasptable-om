@@ -378,7 +378,7 @@ const scOpacityLocation = 'bottomright';
 const sForecastServerRoot = "http://rasp.mrsap.org";
 const scWatermarkLogoLocation = "http://rasp.stratus.org.uk/app/rpfd/water-mark-logo.png";
 
-const sWMSSource = "http://localhost:8080/services/wms?";
+const sWMSSource = "http://mrsap.org:81/services/wms?";
 const sWMSLayerName = "osm-bright";
 
 const scAttribution = '| &copy; <a href="https://www/openmaptiles.org">OpenMapTiles</a>';
