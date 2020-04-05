@@ -1,6 +1,48 @@
 // The names of the models supported from the - is the root of everything as the KVP to other configuration elements
 const jcModelList = ' { "models":  [ "UK2", "UK4", "UK12", "UKGW1", "UKGM" ] }';
 
+const jcAirSpaceFileNameList = '\
+{ "airspace":  \
+	[ \
+		{ \
+			"name": "A", \
+			"description": "Class A", \
+			"enabled": true, \
+			"filename": "class_a.json" \
+        }, \
+		{ \
+			"name": "C", \
+			"description": "Class C", \
+			"enabled": true, \
+			"filename": "class_c.json" \
+        }, \
+		{ \
+			"name": "D", \
+			"description": "Class D", \
+			"enabled": true, \
+			"filename": "class_d.json" \
+        }, \
+		{ \
+			"name": "E", \
+			"description": "Class E", \
+			"enabled": true, \
+			"filename": "class_e.json" \
+        }, \
+		{ \
+			"name": "G", \
+			"description": "Class G", \
+			"enabled": true, \
+			"filename": "class_g.json" \
+        }, \
+		{ \
+			"name": "X", \
+			"description": "Class X", \
+			"enabled": true, \
+			"filename": "class_x.json" \
+        } \
+	] \
+}';
+
 // Used for the selectors and for auto populating other structures
 const jcFullSupportedModels = ' \
 { "models":  \
@@ -17,7 +59,7 @@ const jcFullSupportedModels = ' \
             "resolution": 2000, \
             "zoom": 6, \
             "hours": ["0700", "0800", "0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800"], \
-            "parameters": ["wstar_bsratio","wstar","bsratio","hwcrit","dwcrit","hbl","dbl","hglider","bltopvariab","experimental1","zwblmaxmin","sfcshf","sfcsunpct","sfctemp","sfcdewpt","mslpress","sfcwind","blwind","bltopwind","blwindshear","wblmaxmin","zsfclcldif","zsfclcl","zsfclclmask","zblcldif","zblcl","zblclmask","blcwbase","blcloudpct","blcloudpct","rain1","cape","blicw","press1000","press950","press850","press700","press500","stars","starshg"], \
+            "parameters": ["wstar_bsratio","wstar","bsratio","hwcrit","dwcrit","hbl","dbl","hglider","bltopvariab","experimental1","zwblmaxmin","sfcshf","sfcsunpct","sfctemp","sfcdewpt","mslpress","sfcwind0","sfcwind","blwind","bltopwind","blwindshear","wblmaxmin","zsfclcldif","zsfclcl","zsfclclmask","zblcldif","zblcl","zblclmask","blcwbase","blcloudpct","rain1","cape","blicw","press1000","press950","press850","press700","press500","stars","starshg"], \
             "soundings": ["sounding1","sounding2","sounding3","sounding4","sounding5","sounding6","sounding7","sounding8","sounding9","sounding10","sounding11","sounding12","sounding13","sounding14","sounding15","sounding16"], \
 			"trackaverage": false, \
             "days": ["","+1"] \
@@ -34,7 +76,7 @@ const jcFullSupportedModels = ' \
             "resolution": 4000, \
             "zoom": 6, \
             "hours": ["0700", "0800", "0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800"], \
-            "parameters": ["wstar_bsratio","wstar","bsratio","hwcrit","dwcrit","hbl","dbl","hglider","bltopvariab","experimental1","zwblmaxmin","sfcshf","sfcsunpct","sfctemp","sfcdewpt","mslpress","sfcwind","blwind","bltopwind","blwindshear","wblmaxmin","zsfclcldif","zsfclcl","zsfclclmask","zblcldif","zblcl","zblclmask","blcwbase","blcloudpct","blcloudpct","rain1","cape","blicw","press1000","press950","press850","press700","press500","stars","starshg"], \
+            "parameters": ["wstar_bsratio","wstar","bsratio","hwcrit","dwcrit","hbl","dbl","hglider","bltopvariab","experimental1","zwblmaxmin","sfcshf","sfcsunpct","sfctemp","sfcdewpt","mslpress","sfcwind0","sfcwind","blwind","bltopwind","blwindshear","wblmaxmin","zsfclcldif","zsfclcl","zsfclclmask","zblcldif","zblcl","zblclmask","blcwbase","blcloudpct","rain1","cape","blicw","press1000","press950","press850","press700","press500","stars","starshg"], \
 			"trackaverage": true, \
             "days": ["","+1","+2"] \
         }, \
@@ -50,7 +92,7 @@ const jcFullSupportedModels = ' \
             "resolution": 12000, \
             "zoom": 6, \
             "hours": ["0700", "0800", "0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800"], \
-            "parameters": ["wstar_bsratio","wstar","bsratio","hwcrit","dwcrit","hbl","dbl","hglider","bltopvariab","experimental1","zwblmaxmin","sfcshf","sfcsunpct","sfctemp","sfcdewpt","mslpress","sfcwind","blwind","bltopwind","blwindshear","wblmaxmin","zsfclcldif","zsfclcl","zsfclclmask","zblcldif","zblcl","zblclmask","blcwbase","blcloudpct","blcloudpct","rain1","cape","blicw","press1000","press950","press850","press700","press500","stars","starshg"], \
+            "parameters": ["wstar_bsratio","wstar","bsratio","hwcrit","dwcrit","hbl","dbl","hglider","bltopvariab","experimental1","zwblmaxmin","sfcshf","sfcsunpct","sfctemp","sfcdewpt","mslpress","sfcwind0","sfcwind","blwind","bltopwind","blwindshear","wblmaxmin","zsfclcldif","zsfclcl","zsfclclmask","zblcldif","zblcl","zblclmask","blcwbase","blcloudpct","rain1","cape","blicw","press1000","press950","press850","press700","press500","stars","starshg"], \
 			"trackaverage": true, \
             "days": ["","+1","+2","+3","+4","+5","+6"] \
         }, \
@@ -66,11 +108,11 @@ const jcFullSupportedModels = ' \
             "resolution": 1000, \
             "zoom": 8, \
             "hours": ["0700", "0800", "0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800"], \
-            "parameters": ["wstar_bsratio","wstar","bsratio","hwcrit","dwcrit","hbl","dbl","hglider","bltopvariab","experimental1","zwblmaxmin","sfcshf","sfcsunpct","sfctemp","sfcdewpt","mslpress","sfcwind","blwind","bltopwind","blwindshear","wblmaxmin","zsfclcldif","zsfclcl","zsfclclmask","zblcldif","zblcl","zblclmask","blcwbase","blcloudpct","blcloudpct","rain1","cape","blicw","press1000","press950","press850","press700","press500","stars","starshg"], \
+            "parameters": ["wstar_bsratio","wstar","bsratio","hwcrit","dwcrit","hbl","dbl","hglider","bltopvariab","experimental1","zwblmaxmin","sfcshf","sfcsunpct","sfctemp","sfcdewpt","sfcwind0","sfcwind","blwind","bltopwind","blwindshear","wblmaxmin","zsfclcldif","zsfclcl","zsfclclmask","zblcldif","zblcl","zblclmask","blcwbase","blcloudpct","blcloudpct","rain1","cape","blicw","press1000","press950","press850","press700","press500","stars","starshg"], \
 			"trackaverage": false, \
             "days": ["","+1"] \
         }, \
-        { \
+{ \
             "name": "UKGM", \
             "description": "Scotland (Fine)", \
             "enabled": true, \
@@ -82,7 +124,7 @@ const jcFullSupportedModels = ' \
             "resolution": 2000, \
             "zoom": 7, \
             "hours": ["0700", "0800", "0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800"], \
-            "parameters": ["wstar_bsratio","wstar","bsratio","hwcrit","dwcrit","hbl","dbl","hglider","bltopvariab","experimental1","zwblmaxmin","sfcshf","sfcsunpct","sfctemp","sfcdewpt","mslpress","sfcwind","blwind","bltopwind","blwindshear","wblmaxmin","zsfclcldif","zsfclcl","zsfclclmask","zblcldif","zblcl","zblclmask","blcwbase","blcloudpct","blcloudpct","rain1","cape","blicw","press1000","press950","press850","press700","press500","stars","starshg"], \
+            "parameters": ["wstar_bsratio","wstar","bsratio","hwcrit","dwcrit","hbl","dbl","hglider","bltopvariab","experimental1","zwblmaxmin","sfcshf","sfcsunpct","sfctemp","sfcdewpt","mslpress","sfcwind0","sfcwind","blwind","bltopwind","blwindshear","wblmaxmin","zsfclcldif","zsfclcl","zsfclclmask","zblcldif","zblcl","zblclmask","blcwbase","blcloudpct","blcloudpct","rain1","cape","blicw","press1000","press950","press850","press700","press500","stars","starshg"], \
 			"trackaverage": false, \
             "days": ["","+1"] \
         } \
@@ -92,7 +134,7 @@ const jcFullSupportedModels = ' \
 const jcFullSupportedParameters = ' \
 { "parameters":  \
     [ \
-        { "name": "wstar_bsratio",  "longname": "Thermal Updraft Velocity & B/S Ratio",             "primary": false,    "description": "description" }, \
+        { "name": "wstar_bsratio",  "longname": "Thermal Updraft Velocity & B/S Ratio",             "primary": true,     "description": "description" }, \
         { "name": "wstar",          "longname": "Thermal Updraft Velocity (W*)",                    "primary": true,     "description": "description" }, \
         { "name": "bsratio",        "longname": "Buoyancy/Shear Ratio",                             "primary": false,    "description": "description" }, \
         { "name": "hwcrit",         "longname": "Ht of Critical Updraft Strength (225fpm)",         "primary": false,    "description": "description" }, \
@@ -109,11 +151,11 @@ const jcFullSupportedParameters = ' \
         { "name": "sfcdewpt",       "longname": "Sfc.Dew Point",                                    "primary": false,    "description": "description" }, \
         { "name": "mslpress",       "longname": "MSL Pressure",                                     "primary": false,    "description": "description" }, \
         { "name": "sfcwind0",       "longname": "Sfc.Wind (2m)",                                    "primary": true,     "description": "description" }, \
-        { "name": "sfcwind",        "longname": "Sfc.Wind (10m)",                                   "primary": false,    "description": "description" }, \
+        { "name": "sfcwind",        "longname": "Sfc.Wind (10m)",                                   "primary": true,     "description": "description" }, \
         { "name": "blwind",         "longname": "BL Avg. Wind",                                     "primary": true,     "description": "description" }, \
         { "name": "bltopwind",      "longname": "Wind at BL Top",                                   "primary": false,    "description": "description" }, \
         { "name": "blwindshear",    "longname": "BL Wind Shear",                                    "primary": false,    "description": "description" }, \
-        { "name": "wblmaxmin",      "longname": "BL Max. Up/Down (Convergence)",                    "primary": false,    "description": "description" }, \
+        { "name": "wblmaxmin",      "longname": "BL Max. Up/Down (Convergence)",                    "primary": true,     "description": "description" }, \
         { "name": "zsfclcldif",     "longname": "Cu Potential",                                     "primary": false,    "description": "description" }, \
         { "name": "zsfclcl",        "longname": "Cu Cloudbase (Sfc.LCL) MSL",                       "primary": false,    "description": "description" }, \
         { "name": "zsfclclmask",    "longname": "Cu Cloudbase where CuPotential > 0",               "primary": true,     "description": "description" }, \
@@ -125,11 +167,11 @@ const jcFullSupportedParameters = ' \
         { "name": "rain1",          "longname": "Rain",                                             "primary": true,     "description": "description" }, \
         { "name": "cape",           "longname": "CAPE",                                             "primary": false,    "description": "description" }, \
         { "name": "blicw",          "longname": "BL Integrated Cloud Water",                        "primary": false,    "description": "description" }, \
-        { "name": "press1000",      "longname": "Vertical Velocity at 1000mb",                      "primary": false,    "description": "description" }, \
-        { "name": "press950",       "longname": "Vertical Velocity at 950mb",                       "primary": false,    "description": "description" }, \
-        { "name": "press850",       "longname": "Vertical Velocity at 850mb",                       "primary": true,     "description": "description" }, \
-        { "name": "press700",       "longname": "Vertical Velocity at 700mb",                       "primary": false,    "description": "description" }, \
-        { "name": "press500",       "longname": "Vertical Velocity at 500mb",                       "primary": false,    "description": "description" }, \
+        { "name": "press1000",      "longname": "Vertical Velocity at 1000mb",                      "primary": false,    "description": "press1000 description" }, \
+        { "name": "press950",       "longname": "Vertical Velocity at 950mb",                       "primary": false,    "description": "press950 description" }, \
+        { "name": "press850",       "longname": "Vertical Velocity at 850mb",                       "primary": true,     "description": "press850 description" }, \
+        { "name": "press700",       "longname": "Vertical Velocity at 700mb",                       "primary": false,    "description": "press700 description" }, \
+        { "name": "press500",       "longname": "Vertical Velocity at 500mb",                       "primary": false,    "description": "press500 description" }, \
         { "name": "stars",          "longname": "Star Rating",                                      "primary": true,     "description": "stars description" }, \
         { "name": "starshg",        "longname": "Star Rating - Foot Launchers",                     "primary": true,     "description": "starshg description" } \
     ] \
@@ -362,32 +404,35 @@ const jcGlidingSites = ' \
         } \
 	] \
 }';
-const scDefaultSoundingPopupSize = "530";
+const scDefaultSoundingPopupSize = "530"; // this is for the popup sounding graphic size - trade off on size and readibility -> try and tune
 
-const scDefaultModel = "UK2";
-const scDefaultParameter = "wstar";
-const scDefaultParameterTime = "1300";
+const scDefaultModel = "UK2";           // default model to start on
+const scDefaultParameter = "wstar";     // which paramter was start on
+const scDefaultParameterTime = "1300";  // which hour we start on
 const icMapHeight = 600;
 const icMapWidth = 600;
-const scWaterMarkLocation = 'topleft'; // bottomleft, bottomright, topleft, topright
-const scZoomLocation = 'bottomleft'; // bottomleft, bottomright, topleft, topright
-const scScaleLocation = 'bottomright';  
-const scOpacityLocation = 'bottomright';  
+const scWaterMarkLocation = 'topleft';   // Watermark -> OSM options= bottomleft, bottomright, topleft, topright
+const scZoomLocation = 'bottomleft';     // Zoom control -> OSM options= bottomleft, bottomright, topleft, topright
+const scScaleLocation = 'topright';      // Scale control -> OSM options= bottomleft, bottomright, topleft, topright
+const scOpacityLocation = 'bottomright'; // Opaticy control -> OSM options= bottomleft, bottomright, topleft, topright 
+const bAirSpaceEnabled = true;
 
 
-const sForecastServerRoot = "http://rasp.mrsap.org";
-const scWatermarkLogoLocation = "http://rasp.stratus.org.uk/app/rpfd/water-mark-logo.png";
+const sForecastServerRoot = "http://rasp.mrsap.org";   // this is where all your data is
+const scWatermarkLogoLocation = "water-mark-logo.png"; // put your watermark logo here
 
-const sWMSSource = "http://mrsap.org:81/services/wms?";
-const sWMSLayerName = "osm-bright";
+const sWMSSource = "http://mrsap.org:81/services/wms?";// where your OM maps come from
+const sWMSLayerName = "osm-bright";                    // the OM types type
 
-const scAttribution = '| &copy; <a href="https://www/openmaptiles.org">OpenMapTiles</a>';
-const scAttributionOSM = 'http://mrsap.org:81/styles/osm-bright/{z}/{x}/{y}.png';
+const scAttribution = '| &copy; <a href="https://www/openmaptiles.org">OpenMapTiles</a>'; // Attribution - important!
+const scAttributionOSM = 'http://mrsap.org:81/styles/osm-bright/{z}/{x}/{y}.png';         // Attribution - important!
 
 const scMRSAPAttribution = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a></a>';
-const scMRSAPURL = 'http://mrsap.org:81/{z}/{x}/{y}.png';
+const scMRSAPURL = 'http://mrsap.org:81/{z}/{x}/{y}.png'; // This is the fille tile URL - get this right!
 
-const icDefaultZoom = 6;
+const icDefaultZoom = 6; // default zoom - can be overriden in the model above
 
+// These stings define where your header, body and scales come from. If your folder sturcture is different, change it here
+//  ... exmaple here is <server root>/<model>/FCST/<png files>
 var scScalePanelDefault = sForecastServerRoot + "/"+scDefaultModel+"/FCST/"+scDefaultParameter +".curr."+scDefaultParameterTime +"lst.d2.side.png";
 var scTitlePanelDefault = sForecastServerRoot + "/"+scDefaultModel+"/FCST/"+scDefaultParameter +".curr."+scDefaultParameterTime +"lst.d2.head.png";
