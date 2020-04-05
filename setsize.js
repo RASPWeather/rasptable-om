@@ -113,9 +113,9 @@ function setSize()
 	// alert("TableHt = " + tblHt + "ImgHt = " + imgHt);
 			
 	if( tblHt > imgHt ){
-		document.getElementById("sParamSelect").size = 1;	// Number of visible Parameters
-		document.getElementById("sTimeSelect").size  = 1;	// Number of visible Times
-		document.getElementById("sModelDaySelect").size   = 1;	// Number of visible Days
+		document.getElementById("sParamSelect").size = 2;	// Number of visible Parameters
+		document.getElementById("sTimeSelect").size  = 2;	// Number of visible Times
+		document.getElementById("sModelDaySelect").size   = 2;	// Number of visible Days
 	}
 
 	else { 							// The big Tables will fit
