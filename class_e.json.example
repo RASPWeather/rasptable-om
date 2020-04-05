@@ -1,0 +1,1317 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -4.86666666666667,
+                            55.9166666666667,
+                            1828
+                        ],
+                        [
+                            -4.83083333333333,
+                            55.76666666666669,
+                            1828
+                        ],
+                        [
+                            -4.84305555555556,
+                            55.7411111111111,
+                            1828
+                        ],
+                        [
+                            -4.84305555555556,
+                            55.7411111111111,
+                            1828
+                        ],
+                        [
+                            -5,
+                            55.7266666666667,
+                            1828
+                        ],
+                        [
+                            -5,
+                            55.7266666666667,
+                            1828
+                        ],
+                        [
+                            -5,
+                            55.8333333333333,
+                            1828
+                        ],
+                        [
+                            -5,
+                            55.8333333333333,
+                            1828
+                        ],
+                        [
+                            -4.86666666666667,
+                            55.9166666666667,
+                            1828
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-5E 119.87",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>3000ALT</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -4.86666666666667,
+                            55.9166666666667,
+                            1828
+                        ],
+                        [
+                            -4.86666666666667,
+                            55.9166666666667,
+                            913.9999999999999
+                        ],
+                        [
+                            -4.83083333333333,
+                            55.76666666666669,
+                            913.9999999999999
+                        ],
+                        [
+                            -4.83083333333333,
+                            55.76666666666669,
+                            1828
+                        ],
+                        [
+                            -4.86666666666667,
+                            55.9166666666667,
+                            1828
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-5E 119.87",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>3000ALT</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -4.83083333333333,
+                            55.76666666666669,
+                            1828
+                        ],
+                        [
+                            -4.83083333333333,
+                            55.76666666666669,
+                            913.9999999999999
+                        ],
+                        [
+                            -4.84305555555556,
+                            55.7411111111111,
+                            913.9999999999999
+                        ],
+                        [
+                            -4.84305555555556,
+                            55.7411111111111,
+                            1828
+                        ],
+                        [
+                            -4.83083333333333,
+                            55.76666666666669,
+                            1828
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-5E 119.87",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>3000ALT</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -4.84305555555556,
+                            55.7411111111111,
+                            1828
+                        ],
+                        [
+                            -4.84305555555556,
+                            55.7411111111111,
+                            913.9999999999999
+                        ],
+                        [
+                            -4.84305555555556,
+                            55.7411111111111,
+                            913.9999999999999
+                        ],
+                        [
+                            -4.84305555555556,
+                            55.7411111111111,
+                            1828
+                        ],
+                        [
+                            -4.84305555555556,
+                            55.7411111111111,
+                            1828
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-5E 119.87",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>3000ALT</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -4.84305555555556,
+                            55.7411111111111,
+                            1828
+                        ],
+                        [
+                            -4.84305555555556,
+                            55.7411111111111,
+                            913.9999999999999
+                        ],
+                        [
+                            -5,
+                            55.7266666666667,
+                            913.9999999999999
+                        ],
+                        [
+                            -5,
+                            55.7266666666667,
+                            1828
+                        ],
+                        [
+                            -4.84305555555556,
+                            55.7411111111111,
+                            1828
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-5E 119.87",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>3000ALT</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -5,
+                            55.7266666666667,
+                            1828
+                        ],
+                        [
+                            -5,
+                            55.7266666666667,
+                            913.9999999999999
+                        ],
+                        [
+                            -5,
+                            55.7266666666667,
+                            913.9999999999999
+                        ],
+                        [
+                            -5,
+                            55.7266666666667,
+                            1828
+                        ],
+                        [
+                            -5,
+                            55.7266666666667,
+                            1828
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-5E 119.87",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>3000ALT</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -5,
+                            55.7266666666667,
+                            1828
+                        ],
+                        [
+                            -5,
+                            55.7266666666667,
+                            913.9999999999999
+                        ],
+                        [
+                            -5,
+                            55.8333333333333,
+                            913.9999999999999
+                        ],
+                        [
+                            -5,
+                            55.8333333333333,
+                            1828
+                        ],
+                        [
+                            -5,
+                            55.7266666666667,
+                            1828
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-5E 119.87",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>3000ALT</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -5,
+                            55.8333333333333,
+                            1828
+                        ],
+                        [
+                            -5,
+                            55.8333333333333,
+                            913.9999999999999
+                        ],
+                        [
+                            -5,
+                            55.8333333333333,
+                            913.9999999999999
+                        ],
+                        [
+                            -5,
+                            55.8333333333333,
+                            1828
+                        ],
+                        [
+                            -5,
+                            55.8333333333333,
+                            1828
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-5E 119.87",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>3000ALT</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -5,
+                            55.8333333333333,
+                            1828
+                        ],
+                        [
+                            -5,
+                            55.8333333333333,
+                            913.9999999999999
+                        ],
+                        [
+                            -4.86666666666667,
+                            55.9166666666667,
+                            913.9999999999999
+                        ],
+                        [
+                            -4.86666666666667,
+                            55.9166666666667,
+                            1828
+                        ],
+                        [
+                            -5,
+                            55.8333333333333,
+                            1828
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-5E 119.87",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>3000ALT</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.92295138888889,
+                    55.7856944444444,
+                    1828
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-5E 119.87",
+                "styleUrl": "#khStyle1",
+                "styleHash": "-501d042e",
+                "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>3000ALT</td><tr>\n          </table><br>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -4.15722222222222,
+                            56.23333333333329,
+                            1828
+                        ],
+                        [
+                            -3.853472222222221,
+                            56.2337053571412,
+                            1828
+                        ],
+                        [
+                            -3.549722222222219,
+                            56.23333333333329,
+                            1828
+                        ],
+                        [
+                            -3.549722222222219,
+                            56.23333333333329,
+                            1828
+                        ],
+                        [
+                            -3.49388888888889,
+                            56.1166666666667,
+                            1828
+                        ],
+                        [
+                            -3.49388888888889,
+                            56.1166666666667,
+                            1828
+                        ],
+                        [
+                            -3.82333333333333,
+                            56.1171050256176,
+                            1828
+                        ],
+                        [
+                            -4.15277777777778,
+                            56.1166666666667,
+                            1828
+                        ],
+                        [
+                            -4.15277777777778,
+                            56.1166666666667,
+                            1828
+                        ],
+                        [
+                            -4.39156213152264,
+                            56.05045852134081,
+                            1828
+                        ],
+                        [
+                            -4.62952534319415,
+                            55.983790944226,
+                            1828
+                        ],
+                        [
+                            -4.86666666666667,
+                            55.9166666666667,
+                            1828
+                        ],
+                        [
+                            -4.86666666666667,
+                            55.9166666666667,
+                            1828
+                        ],
+                        [
+                            -4.73333333333333,
+                            56,
+                            1828
+                        ],
+                        [
+                            -4.73333333333333,
+                            56,
+                            1828
+                        ],
+                        [
+                            -4.44615120424088,
+                            56.1170017970298,
+                            1828
+                        ],
+                        [
+                            -4.15722222222222,
+                            56.23333333333329,
+                            1828
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-6E 119.87",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>4000ALT</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -4.15722222222222,
+                            56.23333333333329,
+                            1828
+                        ],
+                        [
+                            -4.15722222222222,
+                            56.23333333333329,
+                            1219
+                        ],
+                        [
+                            -3.853472222222221,
+                            56.2337053571412,
+                            1219
+                        ],
+                        [
+                            -3.853472222222221,
+                            56.2337053571412,
+                            1828
+                        ],
+                        [
+                            -4.15722222222222,
+                            56.23333333333329,
+                            1828
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-6E 119.87",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>4000ALT</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -3.853472222222221,
+                            56.2337053571412,
+                            1828
+                        ],
+                        [
+                            -3.853472222222221,
+                            56.2337053571412,
+                            1219
+                        ],
+                        [
+                            -3.549722222222219,
+                            56.23333333333329,
+                            1219
+                        ],
+                        [
+                            -3.549722222222219,
+                            56.23333333333329,
+                            1828
+                        ],
+                        [
+                            -3.853472222222221,
+                            56.2337053571412,
+                            1828
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-6E 119.87",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>4000ALT</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -3.549722222222219,
+                            56.23333333333329,
+                            1828
+                        ],
+                        [
+                            -3.549722222222219,
+                            56.23333333333329,
+                            1219
+                        ],
+                        [
+                            -3.549722222222219,
+                            56.23333333333329,
+                            1219
+                        ],
+                        [
+                            -3.549722222222219,
+                            56.23333333333329,
+                            1828
+                        ],
+                        [
+                            -3.549722222222219,
+                            56.23333333333329,
+                            1828
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-6E 119.87",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>4000ALT</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -3.549722222222219,
+                            56.23333333333329,
+                            1828
+                        ],
+                        [
+                            -3.549722222222219,
+                            56.23333333333329,
+                            1219
+                        ],
+                        [
+                            -3.49388888888889,
+                            56.1166666666667,
+                            1219
+                        ],
+                        [
+                            -3.49388888888889,
+                            56.1166666666667,
+                            1828
+                        ],
+                        [
+                            -3.549722222222219,
+                            56.23333333333329,
+                            1828
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-6E 119.87",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>4000ALT</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -3.49388888888889,
+                            56.1166666666667,
+                            1828
+                        ],
+                        [
+                            -3.49388888888889,
+                            56.1166666666667,
+                            1219
+                        ],
+                        [
+                            -3.49388888888889,
+                            56.1166666666667,
+                            1219
+                        ],
+                        [
+                            -3.49388888888889,
+                            56.1166666666667,
+                            1828
+                        ],
+                        [
+                            -3.49388888888889,
+                            56.1166666666667,
+                            1828
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-6E 119.87",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>4000ALT</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -3.49388888888889,
+                            56.1166666666667,
+                            1828
+                        ],
+                        [
+                            -3.49388888888889,
+                            56.1166666666667,
+                            1219
+                        ],
+                        [
+                            -3.82333333333333,
+                            56.1171050256176,
+                            1219
+                        ],
+                        [
+                            -3.82333333333333,
+                            56.1171050256176,
+                            1828
+                        ],
+                        [
+                            -3.49388888888889,
+                            56.1166666666667,
+                            1828
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-6E 119.87",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>4000ALT</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -3.82333333333333,
+                            56.1171050256176,
+                            1828
+                        ],
+                        [
+                            -3.82333333333333,
+                            56.1171050256176,
+                            1219
+                        ],
+                        [
+                            -4.15277777777778,
+                            56.1166666666667,
+                            1219
+                        ],
+                        [
+                            -4.15277777777778,
+                            56.1166666666667,
+                            1828
+                        ],
+                        [
+                            -3.82333333333333,
+                            56.1171050256176,
+                            1828
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-6E 119.87",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>4000ALT</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -4.15277777777778,
+                            56.1166666666667,
+                            1828
+                        ],
+                        [
+                            -4.15277777777778,
+                            56.1166666666667,
+                            1219
+                        ],
+                        [
+                            -4.15277777777778,
+                            56.1166666666667,
+                            1219
+                        ],
+                        [
+                            -4.15277777777778,
+                            56.1166666666667,
+                            1828
+                        ],
+                        [
+                            -4.15277777777778,
+                            56.1166666666667,
+                            1828
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-6E 119.87",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>4000ALT</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -4.15277777777778,
+                            56.1166666666667,
+                            1828
+                        ],
+                        [
+                            -4.15277777777778,
+                            56.1166666666667,
+                            1219
+                        ],
+                        [
+                            -4.39156213152264,
+                            56.05045852134081,
+                            1219
+                        ],
+                        [
+                            -4.39156213152264,
+                            56.05045852134081,
+                            1828
+                        ],
+                        [
+                            -4.15277777777778,
+                            56.1166666666667,
+                            1828
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-6E 119.87",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>4000ALT</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -4.39156213152264,
+                            56.05045852134081,
+                            1828
+                        ],
+                        [
+                            -4.39156213152264,
+                            56.05045852134081,
+                            1219
+                        ],
+                        [
+                            -4.62952534319415,
+                            55.983790944226,
+                            1219
+                        ],
+                        [
+                            -4.62952534319415,
+                            55.983790944226,
+                            1828
+                        ],
+                        [
+                            -4.39156213152264,
+                            56.05045852134081,
+                            1828
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-6E 119.87",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>4000ALT</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -4.62952534319415,
+                            55.983790944226,
+                            1828
+                        ],
+                        [
+                            -4.62952534319415,
+                            55.983790944226,
+                            1219
+                        ],
+                        [
+                            -4.86666666666667,
+                            55.9166666666667,
+                            1219
+                        ],
+                        [
+                            -4.86666666666667,
+                            55.9166666666667,
+                            1828
+                        ],
+                        [
+                            -4.62952534319415,
+                            55.983790944226,
+                            1828
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-6E 119.87",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>4000ALT</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -4.86666666666667,
+                            55.9166666666667,
+                            1828
+                        ],
+                        [
+                            -4.86666666666667,
+                            55.9166666666667,
+                            1219
+                        ],
+                        [
+                            -4.86666666666667,
+                            55.9166666666667,
+                            1219
+                        ],
+                        [
+                            -4.86666666666667,
+                            55.9166666666667,
+                            1828
+                        ],
+                        [
+                            -4.86666666666667,
+                            55.9166666666667,
+                            1828
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-6E 119.87",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>4000ALT</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -4.86666666666667,
+                            55.9166666666667,
+                            1828
+                        ],
+                        [
+                            -4.86666666666667,
+                            55.9166666666667,
+                            1219
+                        ],
+                        [
+                            -4.73333333333333,
+                            56,
+                            1219
+                        ],
+                        [
+                            -4.73333333333333,
+                            56,
+                            1828
+                        ],
+                        [
+                            -4.86666666666667,
+                            55.9166666666667,
+                            1828
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-6E 119.87",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>4000ALT</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -4.73333333333333,
+                            56,
+                            1828
+                        ],
+                        [
+                            -4.73333333333333,
+                            56,
+                            1219
+                        ],
+                        [
+                            -4.73333333333333,
+                            56,
+                            1219
+                        ],
+                        [
+                            -4.73333333333333,
+                            56,
+                            1828
+                        ],
+                        [
+                            -4.73333333333333,
+                            56,
+                            1828
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-6E 119.87",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>4000ALT</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -4.73333333333333,
+                            56,
+                            1828
+                        ],
+                        [
+                            -4.73333333333333,
+                            56,
+                            1219
+                        ],
+                        [
+                            -4.44615120424088,
+                            56.1170017970298,
+                            1219
+                        ],
+                        [
+                            -4.44615120424088,
+                            56.1170017970298,
+                            1828
+                        ],
+                        [
+                            -4.73333333333333,
+                            56,
+                            1828
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-6E 119.87",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>4000ALT</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -4.44615120424088,
+                            56.1170017970298,
+                            1828
+                        ],
+                        [
+                            -4.44615120424088,
+                            56.1170017970298,
+                            1219
+                        ],
+                        [
+                            -4.15722222222222,
+                            56.23333333333329,
+                            1219
+                        ],
+                        [
+                            -4.15722222222222,
+                            56.23333333333329,
+                            1828
+                        ],
+                        [
+                            -4.44615120424088,
+                            56.1170017970298,
+                            1828
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-6E 119.87",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>4000ALT</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.18087776465708,
+                    56.0938788528347,
+                    1828
+                ]
+            },
+            "properties": {
+                "name": "SCOT TMA-6E 119.87",
+                "styleUrl": "#khStyle1",
+                "styleHash": "-501d042e",
+                "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>E</b></font></td><td>6000ALT</td><tr>\n            <tr><td>4000ALT</td><tr>\n          </table><br>"
+            }
+        }
+    ]
+}

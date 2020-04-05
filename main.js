@@ -2,19 +2,28 @@
 // Darren Hatcher
 // Main JavaScript Build file
 
-	document.body.style.overflow = "hidden"; // Disable Scrolling
-	window.onresize = function(){setSize();}
+	if (bNoSetSize == false ) // disable reset size functions as not needed for CMS working
+	{
+		document.body.style.overflow = "hidden"; // Disable Scrolling
+		window.onresize = function(){setSize();}
+		console.log("Using reset size functions.");
+	} else {
+		document.body.style.overflow = "visible"; // Enable Scrolling
+		console.log("Reset size functions disabled.");
+	}
 	var titleObj = document.getElementById("theTitle");
 	var sideScaleObj = document.getElementById("theSideScale");
 	var scaleObj = document.getElementById("theBotScale");
 
     // Build Up Selectors
+	var gsSelectedParameter = scDefaultParameter; // to be able to stick to the last used parameter
     
     // Build hours supported for the model for the day
     AddModelPeriods(scDefaultModel);
     
     // Build parameters, based on default model selected
-    AddModelParameters(scDefaultModel);
+	var bParamButtonState = true; // true is short, false is full
+    AddModelParameters(scDefaultModel, bParamButtonState);
 
     // Build Days and models in one go
     AddDayAndModelPeriods(scDefaultModel);
@@ -34,18 +43,30 @@
     var gMapControl;
     var gWmsLayer;
 	var gAirfieldLayer; // for airfields 
+	var gTPLayer; // for turn points
+
+	if (bAirSpaceEnabled){
+		var gAirSpace_A;
+		var gAirSpace_C;
+		var gAirSpace_D;
+		var gAirSpace_E;
+		var gAirSpace_G;
+		var gAirSpace_X;
+	}
 
 	var gfOpacityLevel = 0.5;
 	var gfOpacityDelta = 0.1;
-
+	
+	BuildMarkerLayers();
+	
     BuildSoundingControl(scDefaultModel,"",scDefaultParameterTime);
+
+    // add scale
+    L.control.scale().addTo(map);
 
 	// set zoom control position
 	map.zoomControl.setPosition(scZoomLocation);
     
-    // add scale
-    L.control.scale().addTo(map);
-
 	// add attribution text
     AddAttribution(L);
 	
@@ -65,18 +86,18 @@
 	document.getElementById("sTimeSelect").onchange   = UpdateOverlay;
 	document.getElementById("sParamSelect").onchange  = doParameterChange;
 	document.getElementById("sModelDaySelect").onchange  = doModelDayChange;
+	document.getElementById("btnParameterSelect").onclick  = doSwitchParamList;
     
-    UpdateOverlay();
-
 	map.on('click', onMapClick); // left single click
 	map.on('contextmenu', onMapRightClick); // right single click
 
-	// default to expanded
+	// default the layer control to expanded so aware what options there are
 	gMapControl.expand();
 	
 	setSize();
+	UpdateOverlay( false );
 	
-// end of main body
+	// end of main body
 // ---------------------------------------------------------------------------------------
 function doModelDayChange()
 {
@@ -86,7 +107,7 @@ function doModelDayChange()
  
 	console.log("Clicked: "+ sElement.selectedIndex + " " +sText + "...."+sResult[0]+ "="+sResult[1]);
 
-	if ( sText != "None")
+	if ( sText != "None") // i.e. it's not a list box section separator
 	{ 
 		var sRegion = sResult[0];
 		if (sResult[1] == "0")
@@ -95,14 +116,14 @@ function doModelDayChange()
 		} else{
 			var sDay = "+"+sResult[1];
 		}
-			
+		
+		// we need to reset the supported parameters as well
+		AddModelParameters(sRegion, bParamButtonState);
 
 		var sParameterTimeElement  = document.getElementById("sTimeSelect");
 		var sParameterTimeText = sParameterTimeElement.options[sParameterTimeElement.selectedIndex].value;
 		
-		BuildSoundingControl(sRegion, sDay, sParameterTimeText);
-		
-		UpdateOverlay();
+		UpdateOverlay(true);
 		
 		// recentre as model/region may be different
 		var aCentre = GetModelCentre(sRegion);
@@ -205,13 +226,8 @@ function BuildSoundingControl(sModel,sDay, sTime)
     {
         map.removeLayer(gSoundingOverlay);
     }
-	
-	if ( gAirfieldLayer != undefined) // has existed previously
-	{
-		map.removeLayer(gAirfieldLayer);
-	}
-    // rebuild everything
-    
+
+    // rebuild everything (note we reuse the existing layers for TPs, airfields, airspace etc.)    
 
     gWmsLayer = L.tileLayer(sWMSSource, {
         attribution: scMRSAPAttribution,
@@ -225,20 +241,47 @@ function BuildSoundingControl(sModel,sDay, sTime)
 	// Get the Marker Layer for the default model
 	gSoundingLayer = GetSoundingMarkers(L,sModel,sDay, sTime);
 	
-	// Set the gliding club markers
-	gAirfieldLayer = GetAirfieldMarkers(L,sModel,sTime);
-	
-	// set up the sounding layer
-	gSoundingOverlay = {
-		"Sounding/SkewT": gSoundingLayer,
-		"Gliding Sites": gAirfieldLayer
-	};		
-        
     // Add any controllable layers like maps and soundings ...
-	gMapControl = L.control.layers(gSoundingOverlay).addTo(map);   
-
+	gMapControl = L.control.layers().addTo(map);   
+	
+	// Create the layer control, add the layers then add it to the map
+	gMapControl.addOverlay(gSoundingLayer, "Sounding/SkewT");
+	gMapControl.addOverlay(gAirfieldLayer, "Gliding Sites");
+	gMapControl.addOverlay(gTPLayer,       "BGA Turn Points"); 
+	
+	if (bAirSpaceEnabled){
+		if (gAirSpace_A != undefined) { 
+			gMapControl.addOverlay(gAirSpace_A,    "Class A"); 
+		} else {
+			console.log("Airspace A undefined - not added");
+		}
+		if (gAirSpace_C != undefined) { 
+			gMapControl.addOverlay(gAirSpace_C,    "Class C"); 
+		} else {
+			console.log("Airspace C undefined - not added");
+		}
+		if (gAirSpace_D != undefined) { 
+			gMapControl.addOverlay(gAirSpace_D,    "Class D"); 
+		} else {
+			console.log("Airspace D undefined - not added");
+		}
+		if (gAirSpace_E != undefined) { 
+			gMapControl.addOverlay(gAirSpace_E,    "Class E"); 
+		} else {
+			console.log("Airspace E undefined - not added");
+		}
+		if (gAirSpace_G != undefined) { 
+			gMapControl.addOverlay(gAirSpace_G,    "Class G"); 
+		} else {
+			console.log("Airspace G undefined - not added");
+		}
+		if (gAirSpace_X != undefined) { 
+			gMapControl.addOverlay(gAirSpace_X,    "Class X"); 
+		} else {
+			console.log("Airspace X undefined - not added");
+		}
+	}
     console.log("+++BuildSoundingControl(sModel)");
-
 }
 // ---------------------------------------------------------------------------------------
 function onMapRightClick(e) {
@@ -351,24 +394,47 @@ function DoClickUpdateOverlay()
 		sParameterTimeElement.selectedIndex = 0;
 	}
 	
-	UpdateOverlay();	
+	UpdateOverlay(false);	
 }
     
 // ---------------------------------------------------------------------------------------
 function doSwitchParamList()
 {
-    alert("doSwitchParamList");
+   // change the parameter list shown to short or long
+   
+   // we need the model name for the right parameters
+	var sElement = document.getElementById("sModelDaySelect");
+	var sText = sElement.options[sElement.selectedIndex].value;
+	var sResult = sText.split("+");
+    var sRegion = sResult[0]; // ok, done
+	
+	// empty the parameter list
+	var selector = document.getElementById("sParamSelect");
+    selector.options.length = 0;
+	
+	bParamButtonState = !bParamButtonState;
+	AddModelParameters(sRegion, bParamButtonState);
+	
+	var sButtonElement  = document.getElementById("btnParameterSelect");
+	if (bParamButtonState) // short list
+	{
+		sButtonElement.innerHTML = "Switch to Full Parameter List";
+	} else {
+		sButtonElement.innerHTML = "Switch to Short Parameter List";		
+	}
     
-    // change the parameter list shown to short or long
 }
 // ---------------------------------------------------------------------------------------
 function doParameterChange(sModel)
 {
     console.log("---doParameterChange");
-    UpdateOverlay();
+    UpdateOverlay( false );
+	// keep a copy of what was last set
+	var sParameterElement = document.getElementById("sParamSelect");
+	gsSelectedParameter = sParameterElement.options[sParameterElement.selectedIndex].value
 }    
 // ---------------------------------------------------------------------------------------
-function UpdateOverlay()
+function UpdateOverlay(bUpdateSoundingControl)
 {
     console.log("---UpdateOverlay");
 
@@ -388,8 +454,10 @@ function UpdateOverlay()
 		
     var sParameterTimeElement  = document.getElementById("sTimeSelect");
     var sParameterTimeText = sParameterTimeElement.options[sParameterTimeElement.selectedIndex].value;
-	
-	BuildSoundingControl(sRegion, sDay, sParameterTimeText);
+
+	if (bUpdateSoundingControl) { // only if there is a need to 
+		BuildSoundingControl(sRegion, sDay, sParameterTimeText);
+	}
 	
     // set the image to the value of the various selectors
     var sModelText = sRegion;
@@ -442,7 +510,7 @@ function doTimeChange(sModel)
 {
     console.log("---doTimeChange");
     
-    UpdateOverlay();
+    UpdateOverlay(false);
 }
 // ---------------------------------------------------------------------------------------
 function AddAttribution(oMap)
@@ -563,45 +631,85 @@ function GetModelCentre(sModel)
     return aDefault;
 }
 // ---------------------------------------------------------------------------------------
-function AddModelParameters(sModel)
+function AddModelParameters(sModel, bStateFlag)
 {
-    console.log("---AddModelParaemters()");
+    console.log(">>>AddModelParameters()");
     var i = 0;
+	var aNames = []; // used to do a lookup for the text name
+	var aPrimary = [];
     
-    oaList = JSON.parse(jcFullSupportedModels);
+    oaList = JSON.parse(jcFullSupportedModels); // this is the list of models and their settings
     console.log("Total models found: "+oaList.models.length);
-    
-    oaParameters = JSON.parse(jcFullSupportedParameters);
-    console.log("Total parameters found: "+oaParameters.parameters.length);
 
+    oaParameters = JSON.parse(jcFullSupportedParameters); // this is the full list, whether used by that model or not
+    console.log("Total parameters found: "+oaParameters.parameters.length);
+	for (j = 0; j< oaParameters.parameters.length; j++ )
+	{
+		aNames[oaParameters.parameters[j].name] = oaParameters.parameters[j].longname;
+		console.log("aNames[oaParameters.parameters[j].name]: "+aNames[oaParameters.parameters[j].name])
+		aPrimary[oaParameters.parameters[j].name] = oaParameters.parameters[j].primary;
+	}
+		
+    
     // Get the selector
     var selector = document.getElementById("sParamSelect");
 
     var iPtr = 0;
+	var iShort=0;
     for (i = 0; i< oaList.models.length; i++ )
     {
-        console.log("Model Name: "+oaList.models[i].name+ " Enabled = "+oaList.models[i].enabled);
+        console.log("Model Name: "+oaList.models[i].name+ " Enabled = "+oaList.models[i].enabled+ " Button StateFlag:"+bStateFlag+ " Number of parameters: "+oaList.models[i].parameters.length);
 
-        if (oaList.models[i].enabled == true){
+        if (oaList.models[i].enabled == true){ // great, we do populate
 
-            // now get parameter Textual Name and meaning
-            var parameter_names = "";
-            
-            for (j = 0; j< oaParameters.parameters.length; j++ )
-            {
-                console.log("Adding: "+oaParameters.parameters[j].name+"|"+oaParameters.parameters[j].longname);
-                selector.options[j] = new Option(oaParameters.parameters[j].longname, oaParameters.parameters[j].name);            
-                if (selector.options[j].value == scDefaultParameter){ // select or highlight the default
-                    selector.options[j].selected = true;
-                }
-				if (oaParameters.parameters[j].primary == true){ // make option blue
-					selector.options[j].style.color = "blue";
+			if (oaList.models[i].name == sModel) // we only want the model passed in
+			{				
+				for (j = 0; j< oaList.models[i].parameters.length; j++ )
+				{
+					console.log("Found: "+oaList.models[i].parameters[j]);						
+					// only add depending on the button state flag
+					// if the bStateFlag = true it's short list, defined as true in the "primary" field of JSON for the parameter long names
+					if (bStateFlag == true)
+					{
+						if (aPrimary[oaList.models[i].parameters[j]] == true) 
+						{
+							console.log("Adding to a short list: "+oaList.models[i].parameters[j]+"|"+aNames[oaList.models[i].parameters[j]]);
+							selector.options[iShort] = new Option(aNames[oaList.models[i].parameters[j]],oaList.models[i].parameters[j]);                       
+							if (selector.options[iShort].value == gsSelectedParameter){ // select or highlight the default
+								selector.options[iShort].selected = true;
+							}
+
+							selector.options[iShort].style.color = "blue";
+							
+							iShort++;
+						}
+					} else { // just add it as we want all the parameters
+					
+						console.log("Just adding: "+oaList.models[i].parameters[j]+"|"+aNames[oaList.models[i].parameters[j]]);
+						selector.options[j] = new Option(aNames[oaList.models[i].parameters[j]],oaList.models[i].parameters[j]);            
+						
+						if (selector.options[j].value == gsSelectedParameter){ // select or highlight the default
+							selector.options[j].selected = true;
+						}
+						if (oaParameters.parameters[j].primary == true){ // make option blue
+							selector.options[j].style.color = "blue";
+						}
+					}
+					
 				}
-            }
-            break; // no need to continue onto other models
+			}
         }
     }
-    console.log("---Model parameters added.");    
+	if (selector.selectedIndex <= 0){ // nothing selected, so set to first item
+		selector.options[0].selected = true;
+	}
+
+    console.log("<<<Model parameters added.");    
+}
+function FindLongTextOfParameter(sShortName)
+{
+
+	return "";
 }
 // ---------------------------------------------------------------------------------------
 function GetModelCorners(sModel)
@@ -650,7 +758,7 @@ function GetSoundingMarkers(L,sModel,sDay, sTime)
 	var sContent = "empty";
     
     var myIcon = L.icon({
-        iconUrl: 'sndmkr.png',
+        iconUrl: scPathToIcons+'sndmkr.png',
         iconSize: [25, 25],
         iconAnchor: [15, 15],
         popupAnchor: [0, -5]
@@ -737,7 +845,7 @@ function GetAirfieldMarkers(L,sModel,sTime)
 	var sContent = "empty";
     
     var myIcon = L.icon({
-        iconUrl: 'gliding-club-inv.png',
+        iconUrl: scPathToIcons+'gliding-club-inv.png',
         iconSize: [20, 20],
         iconAnchor: [15, 15],
         popupAnchor: [0, -5]
@@ -865,5 +973,200 @@ function OpacityDn(e)
 	}
 
 	console.log("Level="+gfOpacityLevel);
+}
+// ---------------------------------------------------------------------------------------
+function BuildMarkerLayers()
+{	
+	// Set the gliding club markers
+	gAirfieldLayer = GetAirfieldMarkers(L,scDefaultModel,scDefaultParameterTime); 
+	
+	// --------------------------------------------------------------------
+	// Set the BGA TP markers
+	let xhr = new XMLHttpRequest();
+	xhr.open('GET', scTPJSONFile);
+	xhr.setRequestHeader('Content-Type', 'application/json');
+	xhr.responseType = 'json';
+
+	gTPLayer = new L.LayerGroup();
+	
+	xhr.onload = function() {
+		if (xhr.status !== 200) return
+		gTPGeoJson = L.geoJson(xhr.response, {
+		  style: style,
+		  onEachFeature: onEachTPFeature
+		}).addTo(gTPLayer);
+		console.log("---Added GeoJSON BGA TP elements");
+	};		
+	xhr.send();	
+	
+	if (bAirSpaceEnabled){
+		// --------------------------------------------------------------------
+		// Set the Class A markers
+		var sFileName = GetAirspaceFileName("A");	
+		if (sFileName != "") // we have a filename to load
+		{	
+			console.log("Using airspace JSON file of: "+sFileName)
+			let xhra = new XMLHttpRequest();
+			xhra.open('GET', scCDNURL + sFileName);
+			xhra.setRequestHeader('Content-Type', 'application/json');
+			xhra.responseType = 'json';
+
+			gAirSpace_A = new L.LayerGroup();
+			
+			xhra.onload = function() {
+				if (xhra.status !== 200) return
+				gGeoJsonA = L.geoJson(xhra.response, {
+				  style: AirSpaceStyle,
+				  onEachFeature: onEachClassFeature
+				}).addTo(gAirSpace_A);
+				console.log("---Added GeoJSON gAirSpace_A elements");
+			};		
+			xhra.send();	
+		} else { console.log("Airspace A JSON filename empty"); gAirSpace_A = undefined; }
+		// --------------------------------------------------------------------
+		// Set the Class C markers
+		sFileName = GetAirspaceFileName("C");	
+		if (sFileName != "") // we have a filename to load
+		{	
+			let xhrc = new XMLHttpRequest();
+			xhrc.open('GET', scCDNURL + sFileName);
+			xhrc.setRequestHeader('Content-Type', 'application/json');
+			xhrc.responseType = 'json';
+
+			gAirSpace_C = new L.LayerGroup();
+			
+			xhrc.onload = function() {
+				if (xhrc.status !== 200) return
+				gGeoJsonC = L.geoJson(xhrc.response, {
+				  style: AirSpaceStyle,
+				  onEachFeature: onEachClassFeature
+				}).addTo(gAirSpace_C);
+				console.log("---Added GeoJSON gAirSpace_C elements");
+			};		
+			xhrc.send();	
+		} else { console.log("Airspace C JSON file name empty"); gAirSpace_C = undefined; }
+		// --------------------------------------------------------------------
+		// Set the Class D markers
+		sFileName = GetAirspaceFileName("D");	
+		if (sFileName != "") // we have a file name to load
+		{	
+			let xhrd = new XMLHttpRequest();
+			xhrd.open('GET', scCDNURL + sFileName);
+			xhrd.setRequestHeader('Content-Type', 'application/json');
+			xhrd.responseType = 'json';
+
+			gAirSpace_D = new L.LayerGroup();
+			
+			xhrd.onload = function() {
+				if (xhrd.status !== 200) return
+				gGeoJsonD = L.geoJson(xhrd.response, {
+				  style: AirSpaceStyle,
+				  onEachFeature: onEachClassFeature
+				}).addTo(gAirSpace_D);
+				console.log("---Added GeoJSON gAirSpace_D elements");
+			};		
+			xhrd.send();
+		} else { console.log("Airspace D JSON file name empty"); gAirSpace_D = undefined; }
+
+		// --------------------------------------------------------------------
+		// Set the Class E markers
+		sFileName = GetAirspaceFileName("E");	
+		if (sFileName != "") // we have a file name to load
+		{	
+			let xhre = new XMLHttpRequest();
+			xhre.open('GET', scCDNURL + 'class_e.json');
+			xhre.setRequestHeader('Content-Type', 'application/json');
+			xhre.responseType = 'json';
+
+			gAirSpace_E = new L.LayerGroup();
+			
+			xhre.onload = function() {
+				if (xhre.status !== 200) return
+				gGeoJsonE = L.geoJson(xhre.response, {
+				  style: AirSpaceStyle,
+				  onEachFeature: onEachClassFeature
+				}).addTo(gAirSpace_E);
+				console.log("---Added GeoJSON gAirSpace_E elements");
+			};		
+			xhre.send();	
+		} else { console.log("Airspace E JSON file name empty"); gAirSpace_E = undefined; }
+		// --------------------------------------------------------------------
+		// Set the Class G markers
+		sFileName = GetAirspaceFileName("G");	
+		if (sFileName != "") // we have a file name to load
+		{	
+			let xhrg = new XMLHttpRequest();
+			xhrg.open('GET', scCDNURL + 'class_g.json');
+			xhrg.setRequestHeader('Content-Type', 'application/json');
+			xhrg.responseType = 'json';
+
+			gAirSpace_G = new L.LayerGroup();
+			
+			xhrg.onload = function() {
+				if (xhrg.status !== 200) return
+				gGeoJsonG = L.geoJson(xhrg.response, {
+				  style: AirSpaceStyle,
+				  onEachFeature: onEachClassFeature
+				}).addTo(gAirSpace_G);
+				console.log("---Added GeoJSON gAirSpace_G elements");
+			};		
+			xhrg.send();	
+		} else { console.log("Airspace G JSON file name empty"); gAirSpace_G = undefined; }
+
+		// --------------------------------------------------------------------
+		// Set the Class X markers
+		sFileName = GetAirspaceFileName("X");	
+		if (sFileName != "") // we have a file name to load
+		{			
+			let xhrx = new XMLHttpRequest();
+			xhrx.open('GET', scCDNURL + 'class_x.json');
+			xhrx.setRequestHeader('Content-Type', 'application/json');
+			xhrx.responseType = 'json';
+
+			gAirSpace_X = new L.LayerGroup();
+			
+			xhrx.onload = function() {
+				if (xhrx.status !== 200) return
+				gGeoJsonX = L.geoJson(xhrx.response, {
+				  style: AirSpaceStyle,
+				  onEachFeature: onEachClassFeature
+				}).addTo(gAirSpace_X);
+				console.log("---Added GeoJSON gAirSpace_X elements");
+			};		
+			xhrx.send();	
+		} else { console.log("Airspace X JSON file name empty"); gAirSpace_X = undefined; }
+		// --------------------------------------------------------------------
+	}
+}
+// ---------------------------------------------------------------------------------------
+function GetAirspaceFileName(sClass)
+{
+   console.log(">>>GetAirspaceFilename(sClass)");	
+   var sResponse = "";
+   
+	var oaList = JSON.parse(jcAirSpaceFileNameList);
+    console.log("Airspace total elements found: "+oaList.airspace.length);
+
+    for (var i = 0; i< oaList.airspace.length; i++ )
+    {
+		console.log("Looking for class "+sClass+". Found class: "+oaList.airspace[i].name);
+        if (sClass == oaList.airspace[i].name) {
+			console.log("Match Found: "+oaList.airspace[i].name+ " Filename:"+ oaList.airspace[i].filename);            			
+			if (oaList.airspace[i].enabled == true)  {
+				console.log("Is enabled: "+oaList.airspace[i].name);      
+				sResponse = oaList.airspace[i].filename; // assumes is in there and correct
+				break;
+			} else {
+				// found but disabled
+			}
+		}
+	}
+
+	if (sResponse == "" ){
+		console.log("No match found for:"+sClass);
+	}
+    console.log("<<<GetAirspaceFilename(sClass)");	
+	
+	return sResponse; // is empty if not found or disabled
 }
 // ---------------------------------------------------------------------------------------

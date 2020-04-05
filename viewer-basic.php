@@ -1,9 +1,16 @@
 <?php
-
-	// check if we have a town in the URL
+    // You can run in a full browser or add into your CMS ...
+    
+	// check if we have a mode in the URL
 	if (isset($_GET['mode'])) {
 		if ($_GET['mode'] == "normal" ){	
-			// skip here and build using CMS
+			// skip here and build using CMS of your choice
+			// .. add your code here ...
+			
+			// Then call BuildMainContent() which builds out a string to then outut inside your CMS
+			
+			// See BuildNoCMS for an example
+			exit;
 		} else { // do no CMS
 			BuildNoCMS();
 			exit;
@@ -12,30 +19,6 @@
 		BuildNoCMS();
 		exit;		
 	}
-	require_once("../../class2.php");
-
-	$BLIP_FORM = BuildMainContent();
-
-	// This bit will cover any content build errors
-	if (!$BLIP_FORM)
-	{
-		header("location:".e_BASE."index.php");
-	        exit;
-	}
-	
-	require_once(HEADERF);
-
-
-	include_once(e_HANDLER.'shortcode_handler.php');
-	$shortcodes = $tp -> e_sc -> parse_scbatch(__FILE__);
-	$text = $tp->parseTemplate($BLIP_FORM, TRUE, $shortcodes);
-
-	if(trim($text) != "")
-	{
-		$ns -> tablerender("OpenMaps RASP Viewer", $text, "");
-	}
-
-	require_once(FOOTERF);
 exit;
 // -----------------------------------------------------------------------
 function BuildNoCMS()
@@ -89,11 +72,18 @@ function BuildMainContent()
 		  padding: 0px 0px;
 		  border: 1;
 		  border-radius: 0px;
+		  line-height: 25px;
 		}
 		td {
 			align: center;
 		}
-		
+		.mydefaulttext {
+			 background: #fff; // turns off Aqua
+			 font-size: 18pt; // assuming you meant 18pt, not 18px
+			 margin-bottom: 0px;
+		}
+
+		-webkit-appearance: menulist-button;
 	</style>";
 	
 	$FORM .= "
@@ -107,7 +97,7 @@ function BuildMainContent()
 		<tr>
 			<td align='left' >
 				<a href=\"http://rasp.stratus.org.uk/\">
-					<img src='http://rasp.stratus.org.uk/e_themes/rasp_sebes/images/logo1.png' width=102px height=45px alt=\"RASP Home\">	
+					<img src='home.png'width=55px height=45px  alt=\"RASP Home\">	
 				</a> 
 			</td>
 			<td id='imgdata' valign='top' > <!-- Title images goes here -->
@@ -126,13 +116,13 @@ function BuildMainContent()
 								<table id='selectors' class='selectors' style=\"width:100%;\">
 									<tr>
 										<td valign='top' align=center colspan=3 id='sModelRow2' class='defaulttext'>	<!-- Parameter -->
-											<select title='Select Parameter' id='sModelDaySelect' size='12' class='defaulttext' >
+											<select title='Select Parameter' id='sModelDaySelect' size='12' class='mydefaulttext' >
 												<option style='color: red;' value='nope1'>- - Model and day - -</option>
 												<!-- Filled in by script -->
 											</select>
 										</td>
 										<td>
-											<select title='Select Time' id='sTimeSelect' size=12 class='defaulttext' >
+											<select title='Select Time' id='sTimeSelect' size=12 class='mydefaulttext' >
 												<option>0700</option>
 											</select>
 										</td>
@@ -141,17 +131,23 @@ function BuildMainContent()
 							</td>
 						</tr>	
 						<tr valign='top' >	
-							<td valign='top' align=center colspan=3 id='sParamRow' class='defaulttext'>	<!-- Parameter -->
-								<select title='Select Parameter' id='sParamSelect' size='12' class='defaulttext' >
+							<td valign='top' align=center colspan=3 id='sParamRow' class='defaulttext'>
+							
+								<select title='Select Parameter' id='sParamSelect' size='12' class='mydefaulttext' >
 									<option style='color: red;' value='nope1'>- - - THERMAL PARAMETERS - - -</option>
 									<!-- Filled in by script -->
 								</select>
 							</td>
 						</tr>   										
 						<tr>
+							<td align='center'>
+								<button id='btnParameterSelect'>Switch to Full Parameter List</button>
+							</td>
+						</tr>
+						<tr>
 							<td align='left' class='defaulttext'>				
-								<img align='center' src='http://rasp.stratus.org.uk/e_images/banners/raspheader.png' width=294px height=32px >
-								<p style=\"font-size:10px\">&copy 2019 - @RASPWeather</p>
+								<img align='center' src='raspheader.png' width=294px height=32px >
+								<p style=\"font-size:10px\">&copy 2019-2020 - <a href=\"https://twitter.com/RASPWeather\">@RASPWeather</a></p>
 							</td>
 						</tr>
 					</table>
@@ -187,10 +183,21 @@ function BuildMainContent()
     <script src='airfield_sites.js'></script>
 
     <script src='setsize.js'></script>
-    
-    <!-- Include this script last -->
-    <script src='main.js'></script>
+	<script> var bNoSetSize = false; </script> <!-- ... to use reset sizing functions -->
 
+	
+    <script src='turnpoints.js'></script>
+	
+    <script src='main.js'></script>
+	
+	<script type='text/javascript'> 
+	// Make browser set the right size to the window
+	var resizeEvent = window.document.createEvent('UIEvents'); 
+	resizeEvent.initUIEvent('resize', true, false, window, 0); 
+	window.dispatchEvent(resizeEvent);
+	</script>
+
+	
 	";
 	return $FORM;
 }

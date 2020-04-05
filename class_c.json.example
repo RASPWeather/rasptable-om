@@ -1,0 +1,1813 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5943
+                        ],
+                        [
+                            -2.56944444444444,
+                            51.39194444444441,
+                            5943
+                        ],
+                        [
+                            -2.56944444444444,
+                            51.39194444444441,
+                            5943
+                        ],
+                        [
+                            -2.55777777777778,
+                            51.2722222222222,
+                            5943
+                        ],
+                        [
+                            -2.55777777777778,
+                            51.2722222222222,
+                            5943
+                        ],
+                        [
+                            -2.855555555555561,
+                            51.26055555555561,
+                            5943
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5943
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5943
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5943
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "COTS CTA-1",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL195</td><tr>\n            <tr><td>FL165</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5943
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5029
+                        ],
+                        [
+                            -2.56944444444444,
+                            51.39194444444441,
+                            5029
+                        ],
+                        [
+                            -2.56944444444444,
+                            51.39194444444441,
+                            5943
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5943
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "COTS CTA-1",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL195</td><tr>\n            <tr><td>FL165</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -2.56944444444444,
+                            51.39194444444441,
+                            5943
+                        ],
+                        [
+                            -2.56944444444444,
+                            51.39194444444441,
+                            5029
+                        ],
+                        [
+                            -2.56944444444444,
+                            51.39194444444441,
+                            5029
+                        ],
+                        [
+                            -2.56944444444444,
+                            51.39194444444441,
+                            5943
+                        ],
+                        [
+                            -2.56944444444444,
+                            51.39194444444441,
+                            5943
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "COTS CTA-1",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL195</td><tr>\n            <tr><td>FL165</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -2.56944444444444,
+                            51.39194444444441,
+                            5943
+                        ],
+                        [
+                            -2.56944444444444,
+                            51.39194444444441,
+                            5029
+                        ],
+                        [
+                            -2.55777777777778,
+                            51.2722222222222,
+                            5029
+                        ],
+                        [
+                            -2.55777777777778,
+                            51.2722222222222,
+                            5943
+                        ],
+                        [
+                            -2.56944444444444,
+                            51.39194444444441,
+                            5943
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "COTS CTA-1",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL195</td><tr>\n            <tr><td>FL165</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -2.55777777777778,
+                            51.2722222222222,
+                            5943
+                        ],
+                        [
+                            -2.55777777777778,
+                            51.2722222222222,
+                            5029
+                        ],
+                        [
+                            -2.55777777777778,
+                            51.2722222222222,
+                            5029
+                        ],
+                        [
+                            -2.55777777777778,
+                            51.2722222222222,
+                            5943
+                        ],
+                        [
+                            -2.55777777777778,
+                            51.2722222222222,
+                            5943
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "COTS CTA-1",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL195</td><tr>\n            <tr><td>FL165</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -2.55777777777778,
+                            51.2722222222222,
+                            5943
+                        ],
+                        [
+                            -2.55777777777778,
+                            51.2722222222222,
+                            5029
+                        ],
+                        [
+                            -2.855555555555561,
+                            51.26055555555561,
+                            5029
+                        ],
+                        [
+                            -2.855555555555561,
+                            51.26055555555561,
+                            5943
+                        ],
+                        [
+                            -2.55777777777778,
+                            51.2722222222222,
+                            5943
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "COTS CTA-1",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL195</td><tr>\n            <tr><td>FL165</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -2.855555555555561,
+                            51.26055555555561,
+                            5943
+                        ],
+                        [
+                            -2.855555555555561,
+                            51.26055555555561,
+                            5029
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5029
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5943
+                        ],
+                        [
+                            -2.855555555555561,
+                            51.26055555555561,
+                            5943
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "COTS CTA-1",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL195</td><tr>\n            <tr><td>FL165</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5943
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5029
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5029
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5943
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5943
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "COTS CTA-1",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL195</td><tr>\n            <tr><td>FL165</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5943
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5029
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5029
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5943
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5943
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "COTS CTA-1",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL195</td><tr>\n            <tr><td>FL165</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.71989583333333,
+                    51.313125,
+                    5943
+                ]
+            },
+            "properties": {
+                "name": "COTS CTA-1",
+                "styleUrl": "#khStyle1",
+                "styleHash": "-501d042e",
+                "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL195</td><tr>\n            <tr><td>FL165</td><tr>\n          </table><br>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -3.18055555555556,
+                            51.4355555555556,
+                            5943
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5943
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5943
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5943
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5943
+                        ],
+                        [
+                            -3.22805555555556,
+                            51.1694444444444,
+                            5943
+                        ],
+                        [
+                            -3.22805555555556,
+                            51.1694444444444,
+                            5943
+                        ],
+                        [
+                            -3.20437440480614,
+                            51.3025024018466,
+                            5943
+                        ],
+                        [
+                            -3.18055555555556,
+                            51.4355555555556,
+                            5943
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "COTS CTA-2",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL195</td><tr>\n            <tr><td>FL165</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -3.18055555555556,
+                            51.4355555555556,
+                            5943
+                        ],
+                        [
+                            -3.18055555555556,
+                            51.4355555555556,
+                            5029
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5029
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5943
+                        ],
+                        [
+                            -3.18055555555556,
+                            51.4355555555556,
+                            5943
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "COTS CTA-2",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL195</td><tr>\n            <tr><td>FL165</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5943
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5029
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5029
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5943
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5943
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "COTS CTA-2",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL195</td><tr>\n            <tr><td>FL165</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5943
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5029
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5029
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5943
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5943
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "COTS CTA-2",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL195</td><tr>\n            <tr><td>FL165</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5943
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5029
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5029
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5943
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5943
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "COTS CTA-2",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL195</td><tr>\n            <tr><td>FL165</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5943
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5029
+                        ],
+                        [
+                            -3.22805555555556,
+                            51.1694444444444,
+                            5029
+                        ],
+                        [
+                            -3.22805555555556,
+                            51.1694444444444,
+                            5943
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5943
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "COTS CTA-2",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL195</td><tr>\n            <tr><td>FL165</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -3.22805555555556,
+                            51.1694444444444,
+                            5943
+                        ],
+                        [
+                            -3.22805555555556,
+                            51.1694444444444,
+                            5029
+                        ],
+                        [
+                            -3.22805555555556,
+                            51.1694444444444,
+                            5029
+                        ],
+                        [
+                            -3.22805555555556,
+                            51.1694444444444,
+                            5943
+                        ],
+                        [
+                            -3.22805555555556,
+                            51.1694444444444,
+                            5943
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "COTS CTA-2",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL195</td><tr>\n            <tr><td>FL165</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -3.22805555555556,
+                            51.1694444444444,
+                            5943
+                        ],
+                        [
+                            -3.22805555555556,
+                            51.1694444444444,
+                            5029
+                        ],
+                        [
+                            -3.20437440480614,
+                            51.3025024018466,
+                            5029
+                        ],
+                        [
+                            -3.20437440480614,
+                            51.3025024018466,
+                            5943
+                        ],
+                        [
+                            -3.22805555555556,
+                            51.1694444444444,
+                            5943
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "COTS CTA-2",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL195</td><tr>\n            <tr><td>FL165</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -3.20437440480614,
+                            51.3025024018466,
+                            5943
+                        ],
+                        [
+                            -3.20437440480614,
+                            51.3025024018466,
+                            5029
+                        ],
+                        [
+                            -3.18055555555556,
+                            51.4355555555556,
+                            5029
+                        ],
+                        [
+                            -3.18055555555556,
+                            51.4355555555556,
+                            5943
+                        ],
+                        [
+                            -3.20437440480614,
+                            51.3025024018466,
+                            5943
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "COTS CTA-2",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL195</td><tr>\n            <tr><td>FL165</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.04415791171188,
+                    51.3007989113419,
+                    5943
+                ]
+            },
+            "properties": {
+                "name": "COTS CTA-2",
+                "styleUrl": "#khStyle1",
+                "styleHash": "-501d042e",
+                "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL195</td><tr>\n            <tr><td>FL165</td><tr>\n          </table><br>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5029
+                        ],
+                        [
+                            -2.56944444444444,
+                            51.39194444444441,
+                            5029
+                        ],
+                        [
+                            -2.56944444444444,
+                            51.39194444444441,
+                            5029
+                        ],
+                        [
+                            -2.55777777777778,
+                            51.2722222222222,
+                            5029
+                        ],
+                        [
+                            -2.55777777777778,
+                            51.2722222222222,
+                            5029
+                        ],
+                        [
+                            -2.855555555555561,
+                            51.26055555555561,
+                            5029
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5029
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5029
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5029
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SEVN CTA-1",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL165</td><tr>\n            <tr><td>FL105</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5029
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            3200
+                        ],
+                        [
+                            -2.56944444444444,
+                            51.39194444444441,
+                            3200
+                        ],
+                        [
+                            -2.56944444444444,
+                            51.39194444444441,
+                            5029
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5029
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SEVN CTA-1",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL165</td><tr>\n            <tr><td>FL105</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -2.56944444444444,
+                            51.39194444444441,
+                            5029
+                        ],
+                        [
+                            -2.56944444444444,
+                            51.39194444444441,
+                            3200
+                        ],
+                        [
+                            -2.56944444444444,
+                            51.39194444444441,
+                            3200
+                        ],
+                        [
+                            -2.56944444444444,
+                            51.39194444444441,
+                            5029
+                        ],
+                        [
+                            -2.56944444444444,
+                            51.39194444444441,
+                            5029
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SEVN CTA-1",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL165</td><tr>\n            <tr><td>FL105</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -2.56944444444444,
+                            51.39194444444441,
+                            5029
+                        ],
+                        [
+                            -2.56944444444444,
+                            51.39194444444441,
+                            3200
+                        ],
+                        [
+                            -2.55777777777778,
+                            51.2722222222222,
+                            3200
+                        ],
+                        [
+                            -2.55777777777778,
+                            51.2722222222222,
+                            5029
+                        ],
+                        [
+                            -2.56944444444444,
+                            51.39194444444441,
+                            5029
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SEVN CTA-1",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL165</td><tr>\n            <tr><td>FL105</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -2.55777777777778,
+                            51.2722222222222,
+                            5029
+                        ],
+                        [
+                            -2.55777777777778,
+                            51.2722222222222,
+                            3200
+                        ],
+                        [
+                            -2.55777777777778,
+                            51.2722222222222,
+                            3200
+                        ],
+                        [
+                            -2.55777777777778,
+                            51.2722222222222,
+                            5029
+                        ],
+                        [
+                            -2.55777777777778,
+                            51.2722222222222,
+                            5029
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SEVN CTA-1",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL165</td><tr>\n            <tr><td>FL105</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -2.55777777777778,
+                            51.2722222222222,
+                            5029
+                        ],
+                        [
+                            -2.55777777777778,
+                            51.2722222222222,
+                            3200
+                        ],
+                        [
+                            -2.855555555555561,
+                            51.26055555555561,
+                            3200
+                        ],
+                        [
+                            -2.855555555555561,
+                            51.26055555555561,
+                            5029
+                        ],
+                        [
+                            -2.55777777777778,
+                            51.2722222222222,
+                            5029
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SEVN CTA-1",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL165</td><tr>\n            <tr><td>FL105</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -2.855555555555561,
+                            51.26055555555561,
+                            5029
+                        ],
+                        [
+                            -2.855555555555561,
+                            51.26055555555561,
+                            3200
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            3200
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5029
+                        ],
+                        [
+                            -2.855555555555561,
+                            51.26055555555561,
+                            5029
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SEVN CTA-1",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL165</td><tr>\n            <tr><td>FL105</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5029
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            3200
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            3200
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5029
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5029
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SEVN CTA-1",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL165</td><tr>\n            <tr><td>FL105</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5029
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            3200
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            3200
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5029
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5029
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SEVN CTA-1",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL165</td><tr>\n            <tr><td>FL105</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.71989583333333,
+                    51.313125,
+                    5029
+                ]
+            },
+            "properties": {
+                "name": "SEVN CTA-1",
+                "styleUrl": "#khStyle1",
+                "styleHash": "-501d042e",
+                "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL165</td><tr>\n            <tr><td>FL105</td><tr>\n          </table><br>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -3.18055555555556,
+                            51.4355555555556,
+                            5029
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5029
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5029
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5029
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5029
+                        ],
+                        [
+                            -3.22805555555556,
+                            51.1694444444444,
+                            5029
+                        ],
+                        [
+                            -3.22805555555556,
+                            51.1694444444444,
+                            5029
+                        ],
+                        [
+                            -3.20437440480614,
+                            51.3025024018466,
+                            5029
+                        ],
+                        [
+                            -3.18055555555556,
+                            51.4355555555556,
+                            5029
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SEVN CTA-2",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL165</td><tr>\n            <tr><td>FL105</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -3.18055555555556,
+                            51.4355555555556,
+                            5029
+                        ],
+                        [
+                            -3.18055555555556,
+                            51.4355555555556,
+                            3200
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            3200
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5029
+                        ],
+                        [
+                            -3.18055555555556,
+                            51.4355555555556,
+                            5029
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SEVN CTA-2",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL165</td><tr>\n            <tr><td>FL105</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5029
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            3200
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            3200
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5029
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5029
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SEVN CTA-2",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL165</td><tr>\n            <tr><td>FL105</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5029
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            3200
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            3200
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5029
+                        ],
+                        [
+                            -2.86305555555556,
+                            51.4133333333333,
+                            5029
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SEVN CTA-2",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL165</td><tr>\n            <tr><td>FL105</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5029
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            3200
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            3200
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5029
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5029
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SEVN CTA-2",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL165</td><tr>\n            <tr><td>FL105</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5029
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            3200
+                        ],
+                        [
+                            -3.22805555555556,
+                            51.1694444444444,
+                            3200
+                        ],
+                        [
+                            -3.22805555555556,
+                            51.1694444444444,
+                            5029
+                        ],
+                        [
+                            -2.89305555555556,
+                            51.2513888888889,
+                            5029
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SEVN CTA-2",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL165</td><tr>\n            <tr><td>FL105</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -3.22805555555556,
+                            51.1694444444444,
+                            5029
+                        ],
+                        [
+                            -3.22805555555556,
+                            51.1694444444444,
+                            3200
+                        ],
+                        [
+                            -3.22805555555556,
+                            51.1694444444444,
+                            3200
+                        ],
+                        [
+                            -3.22805555555556,
+                            51.1694444444444,
+                            5029
+                        ],
+                        [
+                            -3.22805555555556,
+                            51.1694444444444,
+                            5029
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SEVN CTA-2",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL165</td><tr>\n            <tr><td>FL105</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -3.22805555555556,
+                            51.1694444444444,
+                            5029
+                        ],
+                        [
+                            -3.22805555555556,
+                            51.1694444444444,
+                            3200
+                        ],
+                        [
+                            -3.20437440480614,
+                            51.3025024018466,
+                            3200
+                        ],
+                        [
+                            -3.20437440480614,
+                            51.3025024018466,
+                            5029
+                        ],
+                        [
+                            -3.22805555555556,
+                            51.1694444444444,
+                            5029
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SEVN CTA-2",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL165</td><tr>\n            <tr><td>FL105</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -3.20437440480614,
+                            51.3025024018466,
+                            5029
+                        ],
+                        [
+                            -3.20437440480614,
+                            51.3025024018466,
+                            3200
+                        ],
+                        [
+                            -3.18055555555556,
+                            51.4355555555556,
+                            3200
+                        ],
+                        [
+                            -3.18055555555556,
+                            51.4355555555556,
+                            5029
+                        ],
+                        [
+                            -3.20437440480614,
+                            51.3025024018466,
+                            5029
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SEVN CTA-2",
+                "styleUrl": "#khStyle3",
+                "styleHash": "6b4f4007",
+                "icon": "http://maps.google.com/mapfiles/kml/pal3/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL165</td><tr>\n            <tr><td>FL105</td><tr>\n          </table><br>",
+                "stroke": "#0000ff",
+                "stroke-opacity": 1,
+                "fill": "#ffffff",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.04415791171188,
+                    51.3007989113419,
+                    5029
+                ]
+            },
+            "properties": {
+                "name": "SEVN CTA-2",
+                "styleUrl": "#khStyle1",
+                "styleHash": "-501d042e",
+                "icon": "http://maps.google.com/mapfiles/kml/pal4/icon56.png",
+                "description": "<hr>\n          <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n            <tr><td rowspan=\"3\"><font size=6><b>C</b></font></td><td>FL165</td><tr>\n            <tr><td>FL105</td><tr>\n          </table><br>"
+            }
+        }
+    ]
+}
