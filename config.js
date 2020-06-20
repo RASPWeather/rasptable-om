@@ -58,11 +58,20 @@ const jcFullSupportedModels = ' \
             "necorner": ["59.3545303", "2.7919922"],	\
             "resolution": 2000, \
             "zoom": 6, \
-            "hours": ["0700", "0800", "0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800"], \
             "parameters": ["wstar_bsratio","wstar","bsratio","hwcrit","dwcrit","hbl","dbl","hglider","bltopvariab","experimental1","zwblmaxmin","sfcshf","sfcsunpct","sfctemp","sfcdewpt","mslpress","sfcwind0","sfcwind","blwind","bltopwind","blwindshear","wblmaxmin","zsfclcldif","zsfclcl","zsfclclmask","zblcldif","zblcl","zblclmask","blcwbase","blcloudpct","rain1","cape","blicw","press1000","press950","press850","press700","press500","stars","starshg"], \
             "soundings": ["sounding1","sounding2","sounding3","sounding4","sounding5","sounding6","sounding7","sounding8","sounding9","sounding10","sounding11","sounding12","sounding13","sounding14","sounding15","sounding16"], \
 			"trackaverage": false, \
-            "days": ["","+1"] \
+            "days": ["","+1"], \
+			"plot_hours": [ \
+				{ \
+					"day" : "", \
+					"hours" : ["0700", "0800", "0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800", "1900", "2000", "2100"] \
+				}, \
+				{ \
+					"day" : "1", \
+					"hours" : ["0700", "0800", "0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800"] \
+				} \
+			] \
         }, \
         { \
             "name": "UK4", \
@@ -75,10 +84,23 @@ const jcFullSupportedModels = ' \
             "necorner": ["59.6034050", "2.7442017"],	\
             "resolution": 4000, \
             "zoom": 6, \
-            "hours": ["0700", "0800", "0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800"], \
             "parameters": ["wstar_bsratio","wstar","bsratio","hwcrit","dwcrit","hbl","dbl","hglider","bltopvariab","experimental1","zwblmaxmin","sfcshf","sfcsunpct","sfctemp","sfcdewpt","mslpress","sfcwind0","sfcwind","blwind","bltopwind","blwindshear","wblmaxmin","zsfclcldif","zsfclcl","zsfclclmask","zblcldif","zblcl","zblclmask","blcwbase","blcloudpct","rain1","cape","blicw","press1000","press950","press850","press700","press500","stars","starshg"], \
 			"trackaverage": true, \
-            "days": ["","+1","+2"] \
+            "days": ["","+1","+2"], \
+			"plot_hours": [ \
+				{ \
+					"day" : "", \
+					"hours" : ["0700", "0800", "0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800", "1900", "2000", "2100"] \
+				}, \
+				{ \
+					"day" : "1", \
+					"hours" : ["0700", "0800", "0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800"] \
+				}, \
+				{ \
+					"day" : "2", \
+					"hours" : ["0700", "0800", "0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800"] \
+				} \
+			] \
         }, \
         { \
             "name": "UK12", \
@@ -91,10 +113,39 @@ const jcFullSupportedModels = ' \
             "necorner": ["59.7539062", "3.2641602"],	\
             "resolution": 12000, \
             "zoom": 6, \
-            "hours": ["0700", "0800", "0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800"], \
             "parameters": ["wstar_bsratio","wstar","bsratio","hwcrit","dwcrit","hbl","dbl","hglider","bltopvariab","experimental1","zwblmaxmin","sfcshf","sfcsunpct","sfctemp","sfcdewpt","mslpress","sfcwind0","sfcwind","blwind","bltopwind","blwindshear","wblmaxmin","zsfclcldif","zsfclcl","zsfclclmask","zblcldif","zblcl","zblclmask","blcwbase","blcloudpct","rain1","cape","blicw","press1000","press950","press850","press700","press500","stars","starshg"], \
 			"trackaverage": true, \
-            "days": ["","+1","+2","+3","+4","+5","+6"] \
+            "days": ["","+1","+2","+3","+4","+5","+6"], \
+			"plot_hours": [ \
+				{ \
+					"day" : "", \
+					"hours" : ["0700", "0800", "0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800", "1900", "2000", "2100"] \
+				}, \
+				{ \
+					"day" : "1", \
+					"hours" : ["0700", "0800", "0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800"] \
+				}, \
+				{ \
+					"day" : "2", \
+					"hours" : ["0700", "0800", "0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800"] \
+				}, \
+				{ \
+					"day" : "3", \
+					"hours" : ["0700", "0800", "0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800"] \
+				}, \
+				{ \
+					"day" : "4", \
+					"hours" : ["0700", "0800", "0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800"] \
+				}, \
+				{ \
+					"day" : "5", \
+					"hours" : ["0700", "0800", "0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800"] \
+				}, \
+				{ \
+					"day" : "6", \
+					"hours" : ["0700", "0800", "0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800"] \
+				} \
+			] \
         }, \
         { \
             "name": "UKGW1", \
@@ -107,10 +158,19 @@ const jcFullSupportedModels = ' \
             "necorner": ["53.4279251", "-2.5975952"],	\
             "resolution": 1000, \
             "zoom": 8, \
-            "hours": ["0700", "0800", "0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800"], \
             "parameters": ["wstar_bsratio","wstar","bsratio","hwcrit","dwcrit","hbl","dbl","hglider","bltopvariab","experimental1","zwblmaxmin","sfcshf","sfcsunpct","sfctemp","sfcdewpt","sfcwind0","sfcwind","blwind","bltopwind","blwindshear","wblmaxmin","zsfclcldif","zsfclcl","zsfclclmask","zblcldif","zblcl","zblclmask","blcwbase","blcloudpct","blcloudpct","rain1","cape","blicw","press1000","press950","press850","press700","press500","stars","starshg"], \
 			"trackaverage": false, \
-            "days": ["","+1"] \
+            "days": ["","+1"], \
+			"plot_hours": [ \
+				{ \
+					"day" : "", \
+					"hours" : ["0700", "0800", "0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800", "1900", "2000", "2100"] \
+				}, \
+				{ \
+					"day" : "1", \
+					"hours" : ["0700", "0800", "0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800"] \
+				} \
+			] \
         }, \
 { \
             "name": "UKGM", \
@@ -123,10 +183,19 @@ const jcFullSupportedModels = ' \
             "necorner": ["58.9500580", "-0.7863159"],	\
             "resolution": 2000, \
             "zoom": 7, \
-            "hours": ["0700", "0800", "0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800"], \
             "parameters": ["wstar_bsratio","wstar","bsratio","hwcrit","dwcrit","hbl","dbl","hglider","bltopvariab","experimental1","zwblmaxmin","sfcshf","sfcsunpct","sfctemp","sfcdewpt","mslpress","sfcwind0","sfcwind","blwind","bltopwind","blwindshear","wblmaxmin","zsfclcldif","zsfclcl","zsfclclmask","zblcldif","zblcl","zblclmask","blcwbase","blcloudpct","blcloudpct","rain1","cape","blicw","press1000","press950","press850","press700","press500","stars","starshg"], \
 			"trackaverage": false, \
-            "days": ["","+1"] \
+            "days": ["","+1"], \
+			"plot_hours": [ \
+				{ \
+					"day" : "", \
+					"hours" : ["0700", "0800", "0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800", "1900", "2000", "2100"] \
+				}, \
+				{ \
+					"day" : "1", \
+					"hours" : ["0700", "0800", "0900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700", "1800"] \
+				} \
+			] \
         } \
 	] \
 }'; 

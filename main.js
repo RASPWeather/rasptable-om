@@ -19,7 +19,7 @@
 	var gsSelectedParameter = scDefaultParameter; // to be able to stick to the last used parameter
     
     // Build hours supported for the model for the day
-    AddModelPeriods(scDefaultModel);
+    AddModelPeriods(scDefaultModel,0); // start of first item
     
     // Build parameters, based on default model selected
 	var bParamButtonState = true; // true is short, false is full
@@ -113,10 +113,15 @@ function doModelDayChange()
 		if (sResult[1] == "0")
 		{
 			var sDay = "";
+			var iHourPtr = 0;
 		} else{
 			var sDay = "+"+sResult[1];
+			var iHourPtr = sResult[1];
 		}
-		
+
+		// need to reset the time periods in case has more or less ...
+		AddModelPeriods(sRegion,iHourPtr);
+
 		// we need to reset the supported parameters as well
 		AddModelParameters(sRegion, bParamButtonState);
 
@@ -580,7 +585,7 @@ function AddWaterMark (oMap)
 	oMap.control.watermark({ position: scWaterMarkLocation }).addTo(map);
 }
 // ---------------------------------------------------------------------------------------
-function AddModelPeriods(sModel) // hours selector
+function AddModelPeriods(sModel,iPeriod) // hours selector with iPeriod as the day outwards
 {
     console.log("---AddModelPeriods for: "+sModel);
     var i = 0;
@@ -589,20 +594,27 @@ function AddModelPeriods(sModel) // hours selector
     
     // get the selector to fill up
     var time = document.getElementById("sTimeSelect");
-    
+	
+	// Clear any there so can reset to the right number
+	document.getElementById("sTimeSelect").options.length = 0;
+	 
     for (i = 0; i< oaList.models.length; i++ )
     {
         if ( (oaList.models[i].enabled == true) && (oaList.models[i].name == sModel) ){
-            console.log("Model Name: "+oaList.models[i].name);
-            console.log("Total hour elements found: "+oaList.models[i].hours+ " | Elements:"+oaList.models[i].hours.length);
+            console.log("Model Name: "+oaList.models[i].name + " i=" + i + " Period=" + iPeriod);
+            console.log("Total hour elements found: "+oaList.models[i].plot_hours[iPeriod].hours+ " | Element count:"+oaList.models[i].plot_hours[iPeriod].hours.length);
             // now add the hours            
-            for (j = 0; j< oaList.models[i].hours.length; j++ ) {
-                time.options[j] = new Option(oaList.models[i].hours[j], oaList.models[i].hours[j]);
-                if (time.options[j].value == scDefaultParameterTime){ // select or highlight the first day in the list 
+            for (j = 0; j< oaList.models[i].plot_hours[iPeriod].hours.length; j++ ) {
+				console.log("Adding: "+oaList.models[i].plot_hours[iPeriod].hours[j]);
+				
+                time.options[j] = new Option(oaList.models[i].plot_hours[iPeriod].hours[j], oaList.models[i].plot_hours[iPeriod].hours[j]);
+                
+				if (time.options[j].value == scDefaultParameterTime){ // select or highlight the first day in the list 
                     time.options[j].selected = true;
                 }
             }
-        }
+			break; // no needed to continue
+        } else { console.log("Skipping Model Name: "+oaList.models[i].name);}
     }
 
     console.log("---Model hour/periods added.");    
