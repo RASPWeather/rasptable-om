@@ -16,4 +16,6 @@ To revise the code for your model/s:
 
 - Adjust *jcGlidingSites* for the gliding locations of interest where you are.
 
+- Put *app.php* into a location that can be used for the right-click functionality. This is a PHP helper application to allow the target CGI script that gets the spot data. The CGI script needs to reside on the server where the RASP *.data* files are located. See the comments inside this helper application on operation.
+
 Lastly ... try it out and see how you get on!
