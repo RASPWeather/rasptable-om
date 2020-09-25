@@ -490,9 +490,6 @@ const bAirSpaceEnabled = true;
 const sForecastServerRoot = "http://rasp.mrsap.org";   // this is where all your data is
 const scWatermarkLogoLocation = "water-mark-logo.png"; // put your watermark logo here
 
-const sWMSSource = "http://mrsap.org:81/services/wms?";// where your OM maps come from
-const sWMSLayerName = "osm-bright";                    // the OM types type
-
 const scAttribution = '| &copy; <a href="https://www/openmaptiles.org">OpenMapTiles</a>'; // Attribution - important!
 const scAttributionOSM = 'http://mrsap.org:81/styles/osm-bright/{z}/{x}/{y}.png';         // Attribution - important!
 

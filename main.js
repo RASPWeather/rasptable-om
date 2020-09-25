@@ -41,7 +41,6 @@
     var gSoundingOverlay;
     var gSoundingLayer;
     var gMapControl;
-    var gWmsLayer;
 	var gAirfieldLayer; // for airfields 
 	var gTPLayer; // for turn points
 
@@ -223,26 +222,13 @@ function BuildSoundingControl(sModel,sDay, sTime)
     {
         map.removeControl(gMapControl);
     }
-    if ( gWmsLayer != undefined )
-    {
-        map.removeLayer(gWmsLayer);
-    }
     if ( gSoundingOverlay != undefined) // has existed previously
     {
         map.removeLayer(gSoundingOverlay);
     }
 
     // rebuild everything (note we reuse the existing layers for TPs, airfields, airspace etc.)    
-
-    gWmsLayer = L.tileLayer(sWMSSource, {
-        attribution: scMRSAPAttribution,
-		center: aCentre,
-		zoom: icDefaultZoom,
-        maxZoom: 18,
-        id: 'osm-bright',
-		layers: [sWMSLayerName],
-    }).addTo(map);
-   
+    
 	// Get the Marker Layer for the default model
 	gSoundingLayer = GetSoundingMarkers(L,sModel,sDay, sTime);
 	
